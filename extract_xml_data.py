@@ -1,4 +1,9 @@
-#Extracting Data from XML, promting a link for user and extract data
+'''
+The program will prompt for a URL, read the XML data from that URL using urllib and then parse and extract the comment counts from the XML data, 
+compute the sum of the numbers in the file and ouput the sum.
+'''
+
+
 import urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 url = input('Enter location: ')
