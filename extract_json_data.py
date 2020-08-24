@@ -1,3 +1,4 @@
+#Exercise python for web data course on coursera
 #Extracting Data from json, prompting a link for user and extract data
 
 import urllib.request, urllib.parse, urllib.error
