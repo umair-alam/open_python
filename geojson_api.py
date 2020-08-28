@@ -47,10 +47,10 @@ while True:
 
     #print(json.dumps(js, indent=4))
 
-    #lat = js['results'][0]['geometry']['location']['lat']
-    #lng = js['results'][0]['geometry']['location']['lng']
-    #print('lat', lat, 'lng', lng)
-    #location = js['results'][0]['formatted_address']
-    #print(location)
+    lat = js['results'][0]['geometry']['location']['lat']
+    lng = js['results'][0]['geometry']['location']['lng']
+    location = js['results'][0]['formatted_address']
     place_id = js['results'][0]['place_id']
+    print('lat', lat, 'lng', lng)
+    print(location)
     print(place_id)
