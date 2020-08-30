@@ -2,6 +2,9 @@
 Reading website data, Web scraping
 usage of BeautifulSoup
 '''
+#use this URL for solving this example problem 
+#http://py4e-data.dr-chuck.net/comments_362967.html
+
 
 import re
 import urllib.request
