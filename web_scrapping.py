@@ -1,4 +1,4 @@
-
+#Scrapping web data through Python socket library
 
 import socket
 
